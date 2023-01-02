@@ -1,6 +1,6 @@
 -- Minimal Zorin OS inspired Conky config
--- Made with assistance from https://github.com/lutzseverino/conky-configuration
-
+-- Color palette is Dracula, feel free to change
+-- Main inspiration and original config from https://github.com/lutzseverino/conky-configuration
 
 
 conky.config = {
@@ -53,7 +53,7 @@ conky.config = {
 	
 	-- Text
 
-		-- text
+		-- font
 		font = 'JetBrainsMono:size=8',
 		
 		format_human_readable = true,
@@ -64,21 +64,21 @@ conky.config = {
     
     -- Colors
     	
-    	default_color = 'white',
-    	default_outline_color = 'white',
-    	default_shade_color = 'white',
+    	default_color = 'f8f8f2',
+    	default_outline_color = '44475a',
+    	default_shade_color = '44475a',
     
-    	-- md blue (200)
-    	color1 = 'b3e5fc',										-- title color
+    	-- Title Color
+    	color1 = '8be9fd',					-- cyan
     	
-    	-- md light blue (200 -> light)
-    	color2 = 'e6ffff',										-- subtitle color
+    	-- Comment Color
+    	color2 = '6272a4',					-- dark blue
     	
-    	-- md blue (200)
-    	color3 = '90caf9',										-- text color
+    	-- Text Color
+    	color3 = 'bd93f9',					-- purple
     	
-    	-- md dark blue (200 -> dark)
-    	color4 = 'ffe0b2'										-- accent color
+    	-- Accent Color
+    	color4 = 'ffb86c'					-- orange
     	
 }
 
