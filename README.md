@@ -8,6 +8,7 @@ Simple and minimal Conky config inspired by Zoring OS.
 [lutzseverino](github.com/lutzseverino/conky-configuration) and [ZvonimirKucis](https://github.com/ZvonimirKucis/conky)
 
 ### End Results
-Admittedly the wallpaper is likely not the best to show the results, but its still a nice wall. I may switch it up and provide an alt screenshot.
+This is using the Dracula theme color codes.
+Those can be found here: https://github.com/dracula/dracula-theme#color-palette
 
-![image](https://github.com/snikrep1/conky_zorin/blob/main/conky_zorin.png)
+![image](https://github.com/snikrep1/conky_zorin/blob/68c937384bb5e924c6bc38045ee190b2cc110dfe/conky_zorin_new_wall.png)
